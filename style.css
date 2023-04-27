@@ -5,6 +5,8 @@ body {
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
+	display: flex;
+    justify-content: space-between;
 }
 
 .caixa {
@@ -34,7 +36,6 @@ nav a {
 
 nav a:hover {
 	color: #C78C19;
-	text-decoration: underline;
 }
 
 .produtos {
@@ -57,14 +58,11 @@ nav a:hover {
 
 .produtos li:hover {
 	border-color: #C78C19;
+	cursor: pointer;
 }
 
 .produtos li:active {
 	border-color: #088C19;	
-}
-
-.produtos li:hover h2 {
-	font-size: 34px;
 }
 
 .produtos h2 {
@@ -84,7 +82,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("./img/bg.jpg");
 	padding: 40px 0;
 }
 
@@ -92,10 +90,6 @@ footer {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
-}
-
-main {
-	
 }
 
 form {
@@ -134,7 +128,7 @@ form label, form legend {
 
 .enviar:hover {
 	background: darkorange;
-	transform: scale(1.2);
+	cursor: pointer;
 }
 
 table {
