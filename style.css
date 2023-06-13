@@ -1,5 +1,7 @@
-body {
+@font-face {
   font-family: "Montserrat", sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Montserrat&display=swap);
+  font-display: swap;
 }
 
 header {
